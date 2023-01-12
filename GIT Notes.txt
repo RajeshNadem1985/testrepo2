@@ -1,0 +1,40 @@
+GIT --> Distributed revision/ version control system
+
+Repo = Folder root
+
+problems without VCS:
+---------------------
+
+1. File content cant be tracked before some timstamp
+2. Since you store the files in your HD, it may crash
+3. collaberation is really problem, multiple persons cant change the file at a time. concurrency
+4. Tagging --> later classes
+5. Branching
+
+1st generation:
+---------------
+only 1 person can open file while he is open other one cant open, until closing the file by 1st person so that
+second person can able to open.
+
+2nd generation: centralized control system - SVN
+------------------------------------------------
+having only center(cloud) in btwn developer1 & developer2
+
+if we have developed one with all fecilities later natural disaster happened so everything is gone so that crisis 
+bcz we ket all development in 1 ceenter
+
+
+3rd generation: distributed or de- centralized - GIT
+----------------------------------------------------
+de-centralized: we distribute developments in different locations even if location destroyed through other developements area
+se can deveop easily which is destroyed.
+
+if remote repo is crashed then all the local repos & working copys in laptops/desktops(lap 1, lap 2) will be crashed which is cloned from 
+remote repo. but lap3 is not cloned but through using 3rd lappy we can restore whole history of remote repo the data which holds
+
+i.e, if central server crashes we can easily restore the data back with all history & with all branches
+
+
+** branching & merging features are improved in GIT over SVN
+
+
